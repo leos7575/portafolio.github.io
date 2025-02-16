@@ -73,7 +73,7 @@
     }
 }
 .perfil{
-    border-radius: 50%;        /* Hace la imagen circular */
-    overflow: hidden;          /* Oculta cualquier desbordamiento */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
+    border-radius: 50%;        
+    overflow: hidden;          
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
