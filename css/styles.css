@@ -93,3 +93,7 @@
 .btn-color:hover{
     background-color: var(--text-color);
 }
+.bord-neon:focus{
+    border-color: var(--neon-color);
+    box-shadow: 0 0 10px 2px rgba(98, 0, 234, 0.7);
+}
