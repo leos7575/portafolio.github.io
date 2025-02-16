@@ -29,7 +29,10 @@
         position: fixed;
         width: 100%;
     }
-    
+    .dd{
+        display: flex;
+        justify-content: end;
+    }
 }
 
 .card {
