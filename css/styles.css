@@ -23,6 +23,10 @@
         width: 100%;
         height: auto;
     }
+    .dd{
+        display: flex;
+        justify-content: end;
+    }
 }
 @media (min-width: 768px) {
     .f{
