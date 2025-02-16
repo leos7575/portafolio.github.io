@@ -1,0 +1,74 @@
+:root{
+    --principal: #0d0d0d;
+    --neon-color: #0affef;
+    --neon-glow: rgba(10, 255, 239, 0.7);
+    --bg-dark: #1a1a1a;
+    --text-color: #fff;
+}
+.modo-oscuro {
+    background-color: var(--bg-dark);
+    color: var(--text-color);
+}
+.neon-text {
+    color: var(--neon-color);
+    text-shadow: 0 0 5px var(--neon-glow), 0 0 10px var(--neon-glow);
+}
+.neon-border {
+    border: 2px solid var(--neon-color);
+    box-shadow: 0 0 10px var(--neon-glow), 0 0 20px var(--neon-glow);
+}
+
+@media (max-width: 768px) {
+    .imagesTam {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (min-width: 768px) {
+    .f{
+        position: fixed;
+        width: 100%;
+    }
+    
+}
+
+.card {
+    background-color: var(--bg-dark);
+    border: none;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px var(--neon-glow), 0 0 30px var(--neon-glow);
+}
+
+.card-title, .card-text {
+    color: var(--text-color);
+}
+
+.card a {
+    color: var(--neon-color);
+    text-shadow: 0 0 5px var(--neon-glow);
+    border: 1px solid var(--neon-color);
+    padding: 5px 10px;
+    transition: background 0.3s ease;
+}
+
+.card a:hover {
+    background: var(--neon-glow);
+    color: #000;
+    text-shadow: none;
+}
+
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 20px;
+        margin-left: 36px;
+    }
+    .about{
+        width: 90%;
+        margin-left: 20px;
+    }
+}
