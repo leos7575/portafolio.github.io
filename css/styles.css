@@ -37,6 +37,9 @@
         display: flex;
         justify-content: end;
     }
+    .cards-con{
+        margin-left: 90px;
+    }
 }
 
 .card {
@@ -72,7 +75,7 @@
 @media (max-width: 768px) {
     .card {
         margin-bottom: 20px;
-        margin-left: 36px;
+        margin-left: 50px;
     }
     .about{
         width: 90%;
@@ -83,4 +86,10 @@
     border-radius: 50%;        
     overflow: hidden;          
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.btn-color{
+    background-color: var(--neon-color);
+}
+.btn-color:hover{
+    background-color: var(--text-color);
 }
