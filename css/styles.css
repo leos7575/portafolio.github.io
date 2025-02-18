@@ -1,6 +1,7 @@
 :root{
     --principal: #0d0d0d;
     --neon-color: #0affef;
+    --neon-color1:rgb(198, 10, 255)f;
     --neon-glow: rgba(10, 255, 239, 0.7);
     --bg-dark: #1a1a1a;
     --text-color: #fff;
@@ -11,6 +12,10 @@
 }
 .neon-text {
     color: var(--neon-color);
+    text-shadow: 0 0 5px var(--neon-glow), 0 0 10px var(--neon-glow);
+}
+.neon-span {
+    color: var(--neon-color1);
     text-shadow: 0 0 5px var(--neon-glow), 0 0 10px var(--neon-glow);
 }
 .neon-border {
@@ -27,6 +32,9 @@
         display: flex;
         justify-content: end;
     }
+    .mq{
+        margin-top: 100px;
+    }
 }
 @media (min-width: 768px) {
     .f{
@@ -40,6 +48,7 @@
     .cards-con{
         margin-left: 90px;
     }
+    
 }
 
 .card {
